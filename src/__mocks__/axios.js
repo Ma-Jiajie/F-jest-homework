@@ -3,7 +3,7 @@ export default {
     Promise.resolve({
       data: {
         id: "28762",
-        naem: "Jay",
+        name: "Jay",
       },
     })
   ),

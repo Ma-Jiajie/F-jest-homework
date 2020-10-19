@@ -4,11 +4,10 @@ function forEach(items, callback) {
 
 test("TODO 11", () => {
   const mockCallback = jest.fn((x) => 42 + x);
-  const array = [1, 2];
-  forEach(array, mockCallback);
+  forEach([1, 2], mockCallback);
 
   // TODO 11: add assertion
-  expect(array).toEqual([1, 2]);
+  expect(mockCallback).toHaveBeenCalledTimes(2);
 });
 
 test("TODO 12", () => {

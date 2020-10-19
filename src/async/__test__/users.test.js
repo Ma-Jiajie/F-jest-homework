@@ -9,7 +9,7 @@ describe("users", () => {
 
     expect(result).toEqual({
       id: "28762",
-      naem: "Jay",
+      name: "Jay",
     });
   });
 });
